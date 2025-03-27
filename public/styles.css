@@ -1,0 +1,98 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Main Container */
+.container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    backdrop-filter: blur(10px);
+}
+
+/* Header */
+h1 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Make the 🌤 emoji colorful */
+h1 span {
+    font-size: 32px;
+    background: linear-gradient(45deg, #FFD700, #FFA500, #FF4500);
+    background-clip: text; /* Standard */
+    -webkit-background-clip: text; /* WebKit for Safari & Chrome */
+    -moz-background-clip: text; /* Firefox */
+    -o-background-clip: text; /* Opera */
+    color: transparent;
+    display: inline-block;
+}
+
+/* Input Field */
+input {
+    width: 85%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+/* Button */
+button {
+    background: #ff7eb3;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff4f81;
+    transform: scale(1.05);
+}
+
+/* Weather Info */
+.weather-info {
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Error Message */
+.error-message {
+    margin-top: 20px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
