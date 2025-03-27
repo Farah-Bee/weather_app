@@ -1,4 +1,5 @@
 🌤 Weather App
+
 Welcome to the Weather App! This web application allows users to search for real-time weather updates by entering a city name. The app fetches data from the OpenWeather API and displays the current temperature in the selected location.
 
 🚀 Features
